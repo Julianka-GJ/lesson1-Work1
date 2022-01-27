@@ -1,6 +1,7 @@
 let a = +prompt('Введите переменную а');
 let b = +prompt('Введите переменную b');
 let c = +prompt('Введите переменную c');
+let br = '<br><br>';
 
 sum = a+b+c;
 
@@ -24,7 +25,7 @@ let is_a = a % 2 == 0;
 let is_b = b % 2 == 0; 
 let is_c = c % 2 == 0; 
 
-document.write('<br><br> число "a" четное = ' + (is_a), '<br><br> число "b" четное =  ' + (is_b), '<br><br> число "c" четное =  ' + (is_c));
+document.write( (br),'число "a" четное = ' + (is_a), (br),'число "b" четное =  ' + (is_b), (br),'число "c" четное =  ' + (is_c));
 
 
 
